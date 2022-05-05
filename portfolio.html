@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <!-- Шапка -->
+
+  <body class="page list">
+    <header class="page-header">
+      <div class="container main-nav">
+        <nav class="nav-top">
+          <a href="./index.html" class="logo item">
+            Web<span class="logo-sc item">Studio</span>
+          </a>
+
+          <ul class="site-nav list">
+            <li class="item"><a href="./index.html" class="link">Студия</a></li>
+            <li class="item">
+              <a href="./portfolio.html" class="linkactive">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="contact-top list">
+          <li class="item">
+            <a class="contact" href="mailto:info@devstudio.com">
+              <svg class="icon" width="16" height="12">
+                <use href="./icon/sprite.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+
+          <li class="item">
+            <a href="tel:+380961111111" class="contact">
+              <svg class="icon" width="10" height="16">
+                <use href="./icon/sprite.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Фильтр -->
+
+    <main>
+      <section class="section menu">
+        <div class="container">
+          <ul class="portfolio-filter list">
+            <li>
+              <button type="button" class="button-menu">Все</button>
+            </li>
+            <li>
+              <button type="button" class="button-menu">Веб-сайты</button>
+            </li>
+            <li>
+              <button type="button" class="button-menu">Приложения</button>
+            </li>
+            <li>
+              <button type="button" class="button-menu">Дизайн</button>
+            </li>
+            <li>
+              <button type="button" class="button-menu">Маркетинг</button>
+            </li>
+          </ul>
+
+          <!-- набор услуг -->
+
+          <ul class="portfolio-list cards-list">
+            <li class="flex-element">
+              <a class="card" href="">
+                <div class="img-wrapper">
+                  <img
+                    src="./works/Технокряк.jpg"
+                    alt="Технокряк"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="text-actions list">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="element-border">
+                  <h3 class="description">Технокряк</h3>
+                  <p class="project">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex-element">
+              <a class="card" href="">
+                <div class="img-wrapper">
+                  <img
+                    src="./works/ПостерNewOrleanvsGoldenStar.jpg"
+                    alt="Постер New Orlean vs Golden Star"
+                    width="370"
+                  />
+                  <p class="text-actions">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="element-border">
+                  <h3 class="description">Постер New Orlean vs Golden Star</h3>
+                  <p class="project">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex-element">
+              <a class="card" href="">
+                <div class="img-wrapper">
+                  <img
+                    src="./works/Ресторан.jpg"
+                    alt="Ресторан Seafood"
+                    width="370"
+                  />
+                  <p class="text-actions">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="element-border">
+                  <h3 class="description">Ресторан Seafood</h3>
+                  <p class="project">Приложение</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex-element">
+              <a class="card" href="">
+                <div class="img-wrapper">
+                  <img
+                    src="./works/ПроектPrime.jpg"
+                    alt="Проект Prime"
+                    width="370"
+                  />
+                  <p class="text-actions">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="element-border">
+                  <h3 class="description">Проект Prime</h3>
+                  <p class="project">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex-element">
+              <a class="card" href="">
+                <div class="img-wrapper">
+                  <img
+                    src="./works/ПроектBoxes.jpg"
+                    alt="Проект Boxes"
+                    width="370"
+                  />
+                  <p class="text-actions">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="element-border">
+                  <h3 class="description">Проект Boxes</h3>
+                  <p class="project">Приложение</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex-element">
+              <a class="card" href="">
+                <div class="img-wrapper">
+                  <img
+                    src="./works/InspirationhasnoBorders.jpg"
+                    alt="Inspiration has no Borders"
+                    width="370"
+                  />
+                  <p class="text-actions">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="element-border">
+                  <h3 class="description">Inspiration has no Borders</h3>
+                  <p class="project">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex-element">
+              <a class="card" href="">
+                <div class="img-wrapper">
+                  <img
+                    src="./works/ИзданиеLimitedEdition.jpg"
+                    alt="Издание Limited Edition"
+                    width="370"
+                  />
+                  <p class="text-actions">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="element-border">
+                  <h3 class="description">Издание Limited Edition</h3>
+                  <p class="project">Дизайн</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex-element">
+              <a class="card" href="">
+                <div class="img-wrapper">
+                  <img
+                    src="./works/ПроектLAB.jpg"
+                    alt="Проект LAB"
+                    width="370"
+                  />
+                  <p class="text-actions">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="element-border">
+                  <h3 class="description">Проект LAB</h3>
+                  <p class="project">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+
+            <li class="flex-element">
+              <a class="card" href="">
+                <div class="img-wrapper">
+                  <img
+                    src="./works/GrowingBusiness.jpg"
+                    alt="Growing Business"
+                    width="370"
+                  />
+                  <p class="text-actions">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="element-border">
+                  <h3 class="description">Growing Business</h3>
+                  <p class="project">Приложение</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- Подвал -->
+
+    <footer class="footer">
+      <div class="container footer-flex-container">
+        <div class="link-logo-footer">
+          <div class="logotype">
+            <a href="./index.html" class="logo-ft">
+              Web<span class="logo-footer">Studio</span>
+            </a>
+          </div>
+
+          <address class="adress">
+            <p class="adress-geo list">г. Киев, пр-т Леси Украинки, 26</p>
+            <ul class="contact-nav list">
+              <li class="item">
+                <a href="mailto:info@devstudio.com" class="contact"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="item">
+                <a href="tel:+380961111111" class="contact"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <div class="join-list">
+          <h3 class="join list">присоединяйтесь</h3>
+
+          <div class="element-icon">
+            <a href class="social-botom">
+              <svg class="social-icon" width="20" height="20">
+                <use href="./icon/sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+            <a href class="social-botom">
+              <svg class="social-icon" width="20" height="20">
+                <use href="./icon/sprite.svg#icon-twitter"></use>
+              </svg>
+            </a>
+            <a href class="social-botom">
+              <svg class="social-icon" width="20" height="20">
+                <use href="./icon/sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+            <a href class="social-botom">
+              <svg class="social-icon" width="20" height="20">
+                <use href="./icon/sprite.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <form name="footer-form" autocomplete="on">
+          <label for="footer-mail" class="contact-form-mail-label"
+            >Подпишитесь на рассылку</label
+          >
+          <input
+            type="email"
+            name="user-mail-footer"
+            class="contact-form-mail"
+            id="footer-mail"
+            placeholder="E-mail"
+            required
+          />
+          <button type="submit" class="contact-form-submit-button">
+            Подписаться
+            <svg class="btn-footer-icon" width="24px" height="24px">
+              <use href="./icon/sprite.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </footer>
+
+    <!-- /* =====Backdrop==== */ -->
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="btn-modal" type="button" data-modal-close>
+          <svg class="modal-close-icon" width="11" height="11">
+            <use href="./icon/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        <b class="title-modal-form">Оставьте свои данные, мы вам перезвоним</b>
+        <form name="modal-form">
+          <label class="modal-form-label" for="user-name">Имя</label>
+          <span class="icon-wrapper">
+            <input
+              type="text"
+              class="modal-form-input input-form"
+              name="user-name"
+              id="user-name"
+              required
+            />
+            <svg class="modal-icon" width="18" height="18">
+              <use href="./icon/sprite.svg#icon-person-black-18dp"></use>
+            </svg>
+          </span>
+          <label class="modal-form-label">Телефон</label>
+          <span class="icon-wrapper">
+            <input
+              name="user-phone"
+              type="tel"
+              class="modal-form-input input-form"
+              required
+            />
+            <svg class="modal-icon" width="18" height="18">
+              <use href="./icon/sprite.svg#icon-phone-black-18dp"></use>
+            </svg>
+          </span>
+
+          <label class="modal-form-label">Почта </label>
+          <span class="icon-wrapper">
+            <input
+              name="user-mail"
+              type="email"
+              class="modal-form-input input-form"
+            />
+            <svg class="modal-icon" width="18" height="18">
+              <use href="./icon/sprite.svg#icon-email-black-18dp"></use>
+            </svg>
+          </span>
+          <label for="user-message" class="modal-form-label">Комментарий</label>
+          <textarea
+            name="user-message"
+            class="modal-form-input textarea-form"
+            placeholder="Введите текст"
+            id="user-message"
+          ></textarea>
+          <div class="checkbox-modal-wrapper">
+            <input
+              type="checkbox"
+              id="user-policy"
+              name="user-policy"
+              class="visually-hidden modal-form-checkbox"
+            />
+            <label for="user-policy" class="modal-form-checkbox-label"
+              >Соглашаюсь с рассылкой и принимаю &nbsp;
+              <a href="" class="modal-link-policy"> Условия договора</a>
+            </label>
+          </div>
+          <button class="modal-form-button">Отправить</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
