@@ -22,13 +22,11 @@
 }
 
 .main-nav {
-  display: flex;
-  align-items: center;
+@extend %align-items;
 }
 
 .main-nav .nav-top {
-  display: flex;
-  align-items: center;
+  @extend %align-items;
 }
 
 .site-nav {
@@ -42,14 +40,12 @@
 }
 
 .site-nav__linkactive {
+  @include font($fs: 14px, $fw: 500, $lh: 1.14, $ls: 0.02em);
+
   position: relative;
   display: block;
 
   color: $accent-color;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -75,10 +71,7 @@ header a {
   display: block;
   color: $title-text-color;
 
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include font($fs: 14px, $fw: 500, $lh: 1.14, $ls: 0.02em);
 
   padding-top: 32px;
   padding-bottom: 32px;

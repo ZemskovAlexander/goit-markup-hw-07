@@ -1,7 +1,6 @@
 .flex-team__social-link {
   cursor: pointer;
-  display: flex;
-  align-items: center;
+  @extend %align-items;
   justify-content: center;
   padding: 0;
   border: none;
@@ -22,7 +21,7 @@
   }
 }
 
-.link-logo-footer {
+.footer__link-logo {
   padding-right: 70px;
 }
 
@@ -70,8 +69,7 @@
 }
 
 .element-icon {
-  display: flex;
-  align-items: center;
+  @extend %align-items;
   justify-content: center;
 }
 

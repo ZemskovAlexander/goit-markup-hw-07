@@ -4,7 +4,7 @@ footer {
   padding-bottom: 60px;
 }
 
-.adress-geo {
+.adress__geo {
   color: $primary-bg-color;
   font-style: normal;
   font-weight: 400;
@@ -14,7 +14,7 @@ footer {
 
   margin-bottom: 9px;
 }
-.footer-flex-container {
+.footer__flex-container {
   display: flex;
   justify-content: space-around;
   align-items: baseline;
