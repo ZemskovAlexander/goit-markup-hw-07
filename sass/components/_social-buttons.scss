@@ -1,4 +1,4 @@
-.flex-team__social-link {
+.social__link {
   cursor: pointer;
   @extend %align-items;
   justify-content: center;
@@ -25,16 +25,16 @@
   padding-right: 70px;
 }
 
-.flex-team__social-icon {
+.social__icon {
   fill: currentColor;
   transition: color 250ms $add-animation;
 }
 
-.flex-team__social-link + .flex-team__social-link {
+.social__link+.social__link {
   margin-left: 10px;
 }
 
-.flex-team__element-icon {
+.social {
   display: flex;
 }
 
@@ -64,7 +64,7 @@
   }
 }
 
-.clients__item + .clients__item {
+.clients__item+.clients__item {
   margin-left: 30px;
 }
 
@@ -73,11 +73,11 @@
   justify-content: center;
 }
 
-.element-icon__social-icon {
+.social-footer__icon {
   fill: currentColor;
 }
 
-.element-icon__social-botom {
+.social-footer__link {
   display: inline-flex;
   cursor: pointer;
   align-items: center;
@@ -99,7 +99,7 @@
   }
 }
 
-.element-icon__social-botom + .element-icon__social-botom {
+.social-footer__link+.social-footer__link {
   margin-left: 10px;
 }
 
