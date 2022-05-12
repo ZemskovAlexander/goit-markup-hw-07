@@ -39,8 +39,24 @@
   margin-left: 50px;
 }
 
-.site-nav__link--active {
+.site-nav__link {
+  display: block;
+  color: $title-text-color;
+
   @include font($fs: 14px, $fw: 500, $lh: 1.14, $ls: 0.02em);
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  transition: color 250ms $add-animation;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.site-nav__link--active {
 
   position: relative;
   color: $accent-color;
@@ -63,22 +79,7 @@ header a {
   padding: 24px 0px;
 }
 
-.site-nav__link {
-  display: block;
-  color: $title-text-color;
 
-  @include font($fs: 14px, $fw: 500, $lh: 1.14, $ls: 0.02em);
-
-  padding-top: 32px;
-  padding-bottom: 32px;
-
-  transition: color 250ms $add-animation;
-
-  &:hover,
-  &:focus {
-    color: $accent-color;
-  }
-}
 
 /* Contact */
 
