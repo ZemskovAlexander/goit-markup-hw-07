@@ -43,11 +43,7 @@
   @include font($fs: 14px, $fw: 500, $lh: 1.14, $ls: 0.02em);
 
   position: relative;
-  display: block;
-
   color: $accent-color;
-  padding-top: 32px;
-  padding-bottom: 32px;
 
   &::after {
     position: absolute;
